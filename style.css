@@ -78,3 +78,65 @@ body{
     border-radius: 40%;
     background-color: rgb(255, 0, 0);
 }
+/* try to responsive */
+
+@media  screen and (max-width:577px) {
+    body{
+    background-image:url(illustration-japanese-city.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 1rem;
+    color: #fffcfc;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gigital-watch{
+    font-size: 3.5rem;
+    text-shadow: 0px 0px 10px #0eefff ;
+    color: rgb(208, 243, 249);
+    margin-top: 100px;
+}
+.watch{
+    margin-bottom: 300px;
+}
+}
+
+@media screen and (min-width:577px) and (max-width:1024px) {
+    .watch{
+    position: relative;
+    height: 550px;
+    font-size: 3rem;
+    margin:auto auto;
+    width: 550px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #0eefff;
+}
+.hour{
+    position: absolute;
+    height: 120px;
+    width: 15px;
+    border-radius: 40%;
+    background-color: black;
+}
+.min{
+    position: absolute;
+    height: 135px;
+    width: 12px;
+    border-radius: 40%;
+    background-color: rgb(50, 15, 132);
+}
+.sec{
+    position: absolute;
+    height: 150px;
+    width: 9px;
+    border-radius: 40%;
+    background-color: rgb(255, 0, 0);
+}
+.gigital-watch{
+    font-size: 7.5rem;
+    text-shadow: 0px 0px 10px #0eefff ;
+    color: rgb(208, 243, 249);
+    margin-top: 100px;
+}
+}
