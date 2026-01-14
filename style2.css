@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(illustration-japanese-city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calcutor{
+    height: 60vh;
+    width: 274px;
+    /* background-color: #171531; */
+    border: 2px solid #fff;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ffff;
+}
+#input{
+    height: 10vh;
+    width: 100%;
+    border: none;
+    background: none;
+    text-align: end;
+    font-size: 2.5rem;
+}
+.input::placeholder{
+    color:rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px #00eeff;
+}
+.btn{
+    height: 6vh;
+    width: 6vh;
+    margin: 10px ;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+.box{
+    margin-left: 20px;
+}
+.btn:hover{
+    box-shadow: 0px 0px 10px #00eeff;
+}
+.btn:active{
+    background-color: gray;
+}
